@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://products.ls.graphics/mesh-gradients/images/29.-Pale-Cornflower-Blue_1.jpg");
+  background-size: cover;
+  background-repeat: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(100, 116, 139, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: clamp(3rem, 7vw, 4rem);
+  font-weight: 700;
+  color: white;
+  margin-bottom: 24px;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.header p {
+  font-size: 20px;
+  max-width: 40ch;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  line-height: 1.75rem;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+div.scoreBoard {
+  background-image: linear-gradient(
+    to left top,
+    #9966cc,
+    #a05bda,
+    #a94ce8,
+    #b337f4,
+    #bf00ff
+  );
+  color: white;
+}
+
+.score > p {
+  background-color: white;
+  color: black;
+}
+
+button {
+  background-color: white;
+  background-image: linear-gradient(
+    to left top,
+    #9966cc,
+    #a05bda,
+    #a94ce8,
+    #b337f4,
+    #bf00ff
+  );
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+button.playAgain {
+  width: 150px;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.choices-container {
+  display: block;
+  border: 10px solid red;
+}
+
+.playAgain-div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.playAgain-div p,
+.display-winner {
+  font-size: 20px;
+  max-width: 40ch;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  line-height: 1.75rem;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hidden {
+  display: none;
+}
