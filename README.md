@@ -1,4 +1,4 @@
-# Landing Page
+# Rock, Paper, Scissors
 
 This was the first JavaScript project from The Odin Project. I've built Rock, Paper, Scissors project with node, but had never implemented the code to show in the browser. This project was relatively easy and was built months ago, but I wanted to create individual repos for the projects I've made and practice writing documentation.
 
