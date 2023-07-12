@@ -2,9 +2,13 @@
 
 This was the first JavaScript project from The Odin Project. I've built Rock, Paper, Scissors project with node, but had never implemented the code to show in the browser. This project was relatively easy and was built months ago, but I wanted to create individual repos for the projects I've made and practice writing documentation.
 
-## Acknowledgements
 
-- Inspired by [The Odin Project](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
+
+## Demo
+
+https://spencerhill97.github.io/rock-paper-scissors/
+
+
 
 ## Tech Stack
 
@@ -15,6 +19,7 @@ This was the first JavaScript project from The Odin Project. I've built Rock, Pa
 </div>
 
 
-## Demo
 
-https://spencerhill97.github.io/rock-paper-scissors/
+## Acknowledgements
+
+- Inspired by [The Odin Project](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
